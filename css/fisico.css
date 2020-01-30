@@ -1,0 +1,169 @@
+::-webkit-scrollbar {
+}
+::-webkit-scrollbar:hover{
+    overflow-y: auto;
+    width: 12px;
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+    display: none;
+}
+::-webkit-scrollbar-thumb:hover{
+    display: inline; 
+    background: #FF0F0F ;
+}
+::-webkit-progress-bar{
+    background: #000000;
+}
+header{
+    display:none;
+}
+html{
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    margin-right: -15px;
+}
+hr{
+    size:  1px;
+    color: red;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: right;
+    color: white;
+}
+h4{
+    text-align: right;
+}
+i:hover, label:hover,
+h1:hover, h2:hover, h3:hover, h4:hover{
+    color: red;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+i{
+    font-size: 30px;
+    color: white;
+}
+img{
+    width: 221px;
+    height: 50px;
+}
+.nome{
+    width: 100%;
+}
+.dtnasc{
+    justify-content: left;
+    text-align: left;
+    width: 25%;
+}
+.CPF{
+    justify-content: right;
+    width: 35%;
+}
+.RG{
+    width: 29%;
+}
+.nomeconj{
+    width: 58%;
+}
+.CPFconj{
+    width: 35%;
+}
+.nomepai{
+    width: 47%;
+}
+.nomemae{
+    width: 47%;
+}
+.logradouro{
+    width: 50%;    
+}
+.nroend{
+    width: 13%;
+}
+.complemento{
+    width: 26%;
+}
+.bairro{
+    width: 25%;
+}
+.CEP{
+    width: 15%;
+}
+.cidade{
+    width: 23%;
+}
+.uf{
+    width: 22%;
+}
+.dddc, .dddt{
+    width: 7%;
+}
+.celular, .telefone{
+    width: 13%;
+}
+.email{
+    width: 46%;
+}
+.profissao{
+    width: 60%;    
+}
+.salario{
+    width: 33%;
+}
+.banco{
+    width: 45%;
+}
+.gerente{
+    width: 70%;
+}
+.participacao, .cliente{
+    width: 46%;
+}
+.nomeemp{
+    width: 70%;
+}
+.cnpjemp{
+    width: 22%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+i{
+    font-size: 30px;
+    color: white;
+}
+i:hover, label:hover{
+    color: red;
+}
+.copia, .link{
+    color: white;
+}
+.page-footer{
+    width: 100%;
+}
+button{
+    width: 300px;
+}
+#botao{ 
+    text-align: center;
+}
+#formulario{
+    background: rgb(168,168,168, 0.05);
+    border-radius: 1%;
+}

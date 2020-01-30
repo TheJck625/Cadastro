@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet"href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="favicon/favicon.ico" />
+        <link rel="stylesheet" href="css/fisico.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <title>Cadastro de pessoa física</title>
+    </head>
+    <!------>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-light fixed-top sticky-top">
+            <a class="navbar-brand" href="#"><img src="img/logo1.png" alt="logo"></a>
+            <ul class="nav navbar-nav ml-auto">
+                <li><h3 class="navbar-toggler-right">Cadastro de pessoa física</h3></li>
+            </ul>
+        </nav>    
+        <header> 
+        </header>
+            <form action="">
+                <div class="row">
+                    <div class="col-sm-2" id="nulo"></div>
+                    <div class="col-sm-8" id="formulario">
+                        <br />
+                        <h2>Dados Pessoais</h2>
+                        <hr />
+                        <div class="nome">
+                            <div class="form-group">
+                                <label for="nome">Nome Completo</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" name="nome" required="required">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="dtnasc mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="data">Data de nascimento</label>
+                                    <input type="date" class="form-control" id="data"name="nome" required>
+                                </div>
+                            </div>
+                            <div class="RG mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="RG">RG</label>
+                                    <input type="text" class="form-control" placeholder="Digite o RG" id="RG" name="RG" required>
+                                </div>
+                            </div>
+                            <div class="CPF mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="CPF">CPF</label>
+                                    <input type="text" class="form-control" placeholder="Digite o CPF" id="CPF"name="CPF" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="nomeconj mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="nomeconj">Nome do(a) Cônjuge</label>
+                                    <input type="text" class="form-control" id="nomeconj"name="nomeconj" required placeholder="Digite o nome">
+                                </div>
+                            </div>
+                            <div class="CPFconj mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="CPFconj">CPF</label>
+                                    <input type="text" class="form-control" placeholder="Digite o CPF" id="CPFconj"name="CPFconj" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="nomemae mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="nomemae">Nome da Mãe</label>
+                                    <input type="text" class="form-control" id="nomemae"name="nomemae" required placeholder="Digite o nome">
+                                </div>
+                            </div>
+                            <div class="nomepai mx-sm-2 mb-2">
+                                <div class="form-group">
+                                    <label for="nomepai">Nome do Pai</label>
+                                    <input type="text" class="form-control" placeholder="Digite o nome" id="nomepai" name="nomepai" required>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>Endereço e contatos</h2>
+                        <hr />
+                        <br />
+                        <div class="form-group row">
+                            <div class="logradouro mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="logradouro">Endereço</label>
+                                    <input type="text" class="form-control" placeholder="Digite o endereço" id="logradouro" name="logradouro" required>
+                                </div>
+                            </div>
+                            <div class="nroend mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="nroend">Número</label>
+                                    <input type="text" class="form-control" placeholder="Numero" id="nroend" name="nroend" required>
+                                </div>
+                            </div>
+                            <div class="complemento mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="complemento">Complemento</label>
+                                    <input type="text" class="form-control" placeholder="Complemento" id="complemento" name="complemento" required>
+                                </div>
+                            </div>                           
+                        </div>
+                        <div class="form-group row">
+                            <div class="bairro mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="bairro">Bairro</label>
+                                <input type="text" class="form-control" placeholder="Digite o bairro" id="bairro" name="bairro" required="required">
+                                </div>
+                            </div>
+                            <div class="CEP mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="CEP">CEP</label>
+                                    <input type="text" class="form-control" placeholder="CEP" id="CEP" name="CEP" required>
+                                </div>
+                            </div>
+                            <div class="cidade mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="cidade">Cidade</label>
+                                    <input type="text" class="form-control" placeholder="cidade" id="cidade" name="cidade" required>
+                                </div>
+                            </div>
+                            <div class="uf mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="uf">Estado</label>
+                                    <select id="inputEstado" class="form-control">
+                                        <option selected>Escolha um estado</option>
+                                        <option value="AC">Acre</option>
+                                        <option value="AL">Alagoas</option>
+                                        <option value="AP">Amapá</option>
+                                        <option value="AM">Amazonas</option>
+                                        <option value="BA">Bahia</option>
+                                        <option value="CE">Ceará</option>
+                                        <option value="DF">Distrito Federal</option>
+                                        <option value="ES">Espírito Santo</option>
+                                        <option value="GO">Goiás</option>
+                                        <option value="MA">Maranhão</option>
+                                        <option value="MT">Mato Grosso</option>
+                                        <option value="MS">Mato Grosso do Sul</option>
+                                        <option value="MG">Minas Gerais</option>
+                                        <option value="PA">Pará</option>
+                                        <option value="PB">Paraíba</option>
+                                        <option value="PR">Paraná</option>
+                                        <option value="PE">Pernambuco</option>
+                                        <option value="PI">Piauí</option>
+                                        <option value="RJ">Rio de Janeiro</option>
+                                        <option value="RN">Rio Grande do Norte</option>
+                                        <option value="RS">Rio Grande do Sul</option>
+                                        <option value="RO">Rondônia</option>
+                                        <option value="RR">Roraima</option>
+                                        <option value="SC">Santa Catarina</option>
+                                        <option value="SP">São Paulo</option>
+                                        <option value="SE">Sergipe</option>
+                                        <option value="TO">Tocantins</option>
+                                      </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="dddt mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="dddt">DDD</label>
+                                    <input type="text" class="form-control" placeholder="DDD" id="dddt" name="dddt" required maxlength="2">
+                                </div>
+                            </div>
+                            <div class="telefone mx-sm-1 mb-2">
+                                <div class="form-group">
+                                    <label for="telefone">Telefone</label>
+                                    <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Telefone" required maxlength="8">
+                                </div>
+                            </div>
+                            <div class="dddc mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="dddc">DDD</label>
+                                    <input type="text" class="form-control" placeholder="DDD" id="dddc" name="dddc" required maxlength="2">
+                                </div>
+                            </div>
+                            <div class="celular mx-sm-1 mb-2">
+                                <div class="form-group">
+                                    <label for="celular">Celular</label>
+                                    <input type="text" class="form-control" name="celular" id="celular" placeholder="celular" required maxlength="9">
+                                </div>
+                            </div>
+                            <div class="email mx-sm-4 mb-2">
+                                <div class="form-group">
+                                    <label for="email">E-mail</label>
+                                    <input type="text" class="form-control" name="email" id="email" placeholder="E-mail" required>
+                                </div>
+                            </div>          
+                        </div>
+                        <h2>Área de Interesse</h2>
+                        <hr />
+                                        <h4>Essa vou retornar do DB</h4>
+                        <br />
+                        <h2>Atividade Profissional</h2>
+                        <hr /> 
+                        <br />
+                        <div class="form-group row">
+                            <div class="profissao mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="profissao">Profissão</label>
+                                    <input type="text" class="form-control" name="profissao" id="profissao" placeholder="Digite a profissão" required>
+                                </div>   
+                            </div>
+                            <div class="salario mx-sm-3 mb-2">
+                                <label for="salario">Salário</label>
+                                <input type="text" class="form-control" name="salario" id="salario" placeholder="Digite o salário" required>     
+                            </div>
+                        </div>
+                        <h2>Documentos Diversos</h2>
+                            <hr /> 
+                            <br />
+                        <div class="form-group row">
+                            <div class="docfoto mx-sm-3 mb-2">
+                                <label for="docfoto">Documento com foto</label><br />
+                                <input type="file" class="form-group" name="docfoto" id="docfoto">
+                            </div>
+                            <div class="comprenda mx-sm-5 mb-5">
+                                <label for="comprenda">Comprovante de Renda</label><br />
+                                <input type="file" class="form-group" name="comprenda" id="comprenda">
+                            </div>
+                            <div class="compresidencia mx-sm-3 mb-2">
+                                <label for="compresidencia">Comprovante de Residência</label><br />
+                                <input type="file" name="compresidencia" id="compresidencia">
+                            </div>
+                            <div class="outrodoc mx-sm-5 mb-5">
+                                <label for="outrodoc">Outros Documentos</label><br />
+                                <input type="file" class="form-group" name="outrodoc" id="outrodoc">
+                            </div>
+                        </div>
+                        <h2>Referências Bancárias</h2>
+                            <hr /> 
+                            <br />
+                        <div class="form-group row">
+                            <div class="banco mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="banco">Banco</label>
+                                    <input type="text" class="form-control" name="banco" id="banco" placeholder="Digite o nome do banco" required>
+                                </div>
+                            </div>
+                            <div class="agencia mx-sm-3 mb-s">
+                                <div class="form-group">
+                                    <label for="agencia">Agência</label>
+                                    <input type="text" class="form-control" mame="agencia" id="agencia" placeholder="Digite a agência" required>
+                                </div>
+                            </div>
+                            <div class="conta mx-sm-3 mb-s">
+                                <div class="form-group">
+                                    <label for="conta">Conta</label>
+                                    <input type="text" class="form-control" mame="conta" id="conta" placeholder="Digite a conta" required>
+                                </div>
+                            </div>
+                            <div class="gerente mx-sm-3 mb-s">
+                                <div class="form-group">
+                                    <label for="gerente">Gerente</label>
+                                    <input type="text" class="form-control" mame="gerente" id="gerente" placeholder="Digite o nome do Gerente" required>
+                                </div>
+                            </div>
+                            <div class="dddt mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="dddt">DDD</label>
+                                    <input type="text" class="form-control" placeholder="DDD" id="dddtg" name="dddt" required maxlength="2">
+                                </div>
+                            </div>
+                            <div class="telefone mx-sm-1 mb-2">
+                                <div class="form-group">
+                                    <label for="telefone">Telefone</label>
+                                    <input type="text" class="form-control" name="telefone" id="telefoneg" placeholder="Telefone" required maxlength="8">
+                                </div>
+                            </div>
+                        </div>
+                        <h2>Informações Adicionais</h2>
+                        <hr /> 
+                        <br />
+                        <div class="form-group row">
+                            <div class="participacao mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="participacao">Possui participação em alguma empresa?</label>
+                                    <select id="inputParticipacao" class="form-control">
+                                        <option value="S">Sim</option>
+                                        <option selected value="N">Não</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="cliente mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="cliente">A empresa já é nossa parceira?</label>
+                                    <select id="inputCliente" class="form-control">
+                                        <option value="S">Sim</option>
+                                        <option selected value="N">Não</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="nomeemp mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="nomeemp">Nome da Empresa</label>
+                                    <input type="text" class="form-control" id="nomeemp" name="nomeemp" placeholder="Digite o nome da empresa" required>
+                                </div>
+                            </div>
+                            <div class="cnpjemp mx-sm-3 mb-2">
+                                <div class="form-group">
+                                    <label for="cnpjemp">CNPJ da Empresa</label>
+                                    <input type="text" class="form-control" od="cnpjemp" name="cnpjemp" placeholder="Dgite o CNPJ" required>
+                                </div>
+                            </div>
+                        </div>
+                                <br /> <br />
+                        <!--Botão-->
+                    <div id="botao">
+                        <div class="btconfirmar">
+                            <div class="form-group">
+                                <input type="button" class="btn btn-success" value="Confirmar" id="btconfirmar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        <footer class="page-footer font-small bg-dark special-color-dark pt-4">
+            <div class="container">
+                <ul class="list-unstyled list-inline text-center">
+                    <span><a class="btn-floating btn-lg btn-fb" href="https://www.facebook.com/IrmaosJouglard/"type="button" role="button"><i class="fab fa-facebook-f"></i></a></span>
+                    <span><a class="btn-floating btn-lg btn-ins" href="https://www.instagram.com/irmaosjouglard/"type="button" role="button"><i class="fab fa-instagram"></i></a></span>
+                    <span><a class="btn-floating btn-lg btn-whatsapp" href="https://www.jouglard.com.br" type="button" role="button"><i class="fas fa-globe-americas"></i></a></span>
+                </ul>          
+            </div>
+            <div class="footer-copyright text-center py-3">
+                <div class="copia">© 2020 Copyright: 
+                    <a class="link" href="https://www.jouglard.com.br">Irmãos Jouglard</a>
+                </div> 
+            </div>
+        </footer> 
+    </body>
+</html>

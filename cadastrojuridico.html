@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet"href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="favicon/favicon.ico" />
+        <link rel="stylesheet" href="css/juridico.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <title>Cadastro de pessoa jurídica</title>
+    </head>
+    <!------>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-light fixed-top sticky-top">
+            <a class="navbar-brand" href="#"><img src="img/logo1.png" alt="logo"></a>
+            <ul class="nav navbar-nav ml-auto">
+                <li><h3 class="navbar-toggler-right">Cadastro de pessoa jurídica</h3></li>
+            </ul>
+        </nav> 
+        <header>
+        </header>
+        <form action="">
+            <div class="row">
+                <div class="col-sm-2" id="nulo"></div>
+                <div class="col-sm-8" id="formulario">
+                    <br />
+                    <h2>Dados Cadastrais</h2>
+                    <hr />
+                    <div class="form-group row">
+                        <div class="razaosocial mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="razaosocial">Razão Social</label>
+                                <input type="text" class="form-control" id="razaosocial" placeholder="Digite a razão social" required>
+                            </div>
+                        </div>
+                        <div class="nomefantasia mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="nomefantasia">Nome Fantasia</label>
+                                <input type="text" class="form-control" id="nomefantasia" placeholder="Digite o nome fantasia" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="CNPJ mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="CNPJ">CNPJ</label>
+                                <input type="text" class="form-control" id="CNPJ" placeholder="Digite o CNPJ" maxlength="14" required>
+                            </div>
+                        </div>
+                        <div class="inscestad mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="inscestad">Inscrição Estadual</label>
+                                <input type="text" class="form-control" id="inscestad" placeholder="Digite a Insc. Estadual" maxlength="14" required>
+                            </div>
+                        </div>
+                        <div class="qtdcolaboradores mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="qtdcolaboradores">Nº de Colaboradores</label>
+                                <input type="number" class="form-control" name="qtdcolaboradores" id="qtdcolaboradores" placeholder="0">
+                            </div>
+                        </div>
+                        <div class="dtfund mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="dtfund">Data de Fundação</label>
+                                <input type="date" name="dtfund" id="dtfund" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="ramoativ mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="ramoativ">Ramo de Atividade</label><br />
+                                <input type="text" class="form-control" id="ramoativ" name="ramoativ" placeholder="Digite o Ramo de Atividade" required>
+                            </div>
+                        </div>
+                        <div class="nomesocio mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="nomesocio">Sócio Administrador</label><br />
+                                <input type="text" class="form-control" id="nomesocio" name="nomesocio" placeholder="Digite o Nome do Sócio" required>
+                            </div>
+                        </div>
+                        <div class="CPFs mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="CPFs">CPF</label>
+                                <input type="text" class="form-control" id="CPFs" placeholder="Digite o CPF" maxlength="11" required>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <h2>Endereço e contato</h2>
+                    <hr />
+                    <div class="form-group row">
+                        <div class="logradouro mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="logradouro">Endereço</label>
+                                <input type="text" class="form-control" placeholder="Digite o endereço" id="logradouro" name="logradouro" required>
+                            </div>
+                        </div>
+                        <div class="nroend mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="nroend">Número</label>
+                                <input type="text" class="form-control" placeholder="Numero" id="nroend" name="nroend" required>
+                            </div>
+                        </div>
+                        <div class="complemento mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="complemento">Complemento</label>
+                                <input type="text" class="form-control" placeholder="Complemento" id="complemento" name="complemento" required>
+                            </div>
+                        </div>                           
+                    </div>
+                    <div class="form-group row">
+                        <div class="bairro mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="bairro">Bairro</label>
+                            <input type="text" class="form-control" placeholder="Digite o bairro" id="bairro" name="bairro" required="required">
+                            </div>
+                        </div>
+                        <div class="CEP mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="CEP">CEP</label>
+                                <input type="text" class="form-control" placeholder="CEP" id="CEP" name="CEP" required>
+                            </div>
+                        </div>
+                        <div class="cidade mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="cidade">Cidade</label>
+                                <input type="text" class="form-control" placeholder="cidade" id="cidade" name="cidade" required>
+                            </div>
+                        </div>
+                        <div class="uf mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="uf">Estado</label>
+                                <select id="inputEstado" class="form-control">
+                                    <option selected>Escolha um estado</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                  </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+
+                        <div class="dddt mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="dddt">DDD</label>
+                                <input type="text" class="form-control" placeholder="DDD" id="dddt" name="dddt" required maxlength="2">
+                            </div>
+                        </div>
+                        <div class="telefone mx-sm-1 mb-2">
+                            <div class="form-group">
+                                <label for="telefone">Telefone</label>
+                                <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Telefone" required maxlength="8">
+                            </div>
+                        </div>
+                        <div class="email mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="email">E-mail p/ envio de NF-e</label>
+                                <input type="email" name="email" id="email" class="form-control" placeholder="E-mail NF-e">
+                            </div>
+                        </div>
+                        <div class="emailc mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="emailc">E-mail p/ contato</label>
+                                <input type="email" name="emailc" id="emailc" class="form-control" placeholder="E-mail p/ contato">
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <h2>Referências Bancárias</h2>
+                    <hr /> 
+                    <br />
+                    <div class="form-group row">
+                        <div class="banco mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="banco1">Banco</label>
+                                <input type="text" class="form-control" name="banco1" id="banco1" placeholder="Digite o nome do banco" required>
+                            </div>
+                        </div>
+                        <div class="agencia mx-sm-3 mb-s">
+                            <div class="form-group">
+                                <label for="agencia1">Agência</label>
+                                <input type="text" class="form-control" mame="agencia1" id="agencia1" placeholder="Digite a agência" required>
+                            </div>
+                        </div>
+                        <div class="conta mx-sm-3 mb-s">
+                            <div class="form-group">
+                                <label for="conta1">Conta</label>
+                                <input type="text" class="form-control" mame="conta1" id="conta1" placeholder="Digite a conta" required>
+                            </div>
+                        </div>
+                        <div class="gerente mx-sm-3 mb-s">
+                            <div class="form-group">
+                                <label for="gerente1">Gerente</label>
+                                <input type="text" class="form-control" mame="gerente1" id="gerente1" placeholder="Digite o nome do Gerente" required>
+                            </div>
+                        </div>
+                        <div class="dddt mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="dddt1">DDD</label>
+                                <input type="text" class="form-control" placeholder="DDD" id="dddtg" name="dddt" required maxlength="2">
+                            </div>
+                        </div>
+                        <div class="telefone mx-sm-1 mb-2">
+                            <div class="form-group">
+                                <label for="telefone1">Telefone</label>
+                                <input type="text" class="form-control" name="telefone1" id="telefoneg1" placeholder="Telefone" required maxlength="8">
+                            </div>
+                        </div>
+                        <div class="banco mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="banco">Banco</label>
+                                <input type="text" class="form-control" name="banco" id="banco" placeholder="Digite o nome do banco" required>
+                            </div>
+                        </div>
+                        <div class="agencia mx-sm-3 mb-s">
+                            <div class="form-group">
+                                <label for="agencia">Agência</label>
+                                <input type="text" class="form-control" mame="agencia" id="agencia" placeholder="Digite a agência" required>
+                            </div>
+                        </div>
+                        <div class="conta mx-sm-3 mb-s">
+                            <div class="form-group">
+                                <label for="conta">Conta</label>
+                                <input type="text" class="form-control" mame="conta" id="conta" placeholder="Digite a conta" required>
+                            </div>
+                        </div>
+                        <div class="gerente mx-sm-3 mb-s">
+                            <div class="form-group">
+                                <label for="gerente">Gerente</label>
+                                <input type="text" class="form-control" mame="gerente" id="gerente" placeholder="Digite o nome do Gerente" required>
+                            </div>
+                        </div>
+                        <div class="dddt mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="dddt">DDD</label>
+                                <input type="text" class="form-control" placeholder="DDD" id="dddtg" name="dddt" required maxlength="2">
+                            </div>
+                        </div>
+                        <div class="telefone mx-sm-1 mb-2">
+                            <div class="form-group">
+                                <label for="telefone">Telefone</label>
+                                <input type="text" class="form-control" name="telefone" id="telefoneg" placeholder="Telefone" required maxlength="8">
+                            </div>
+                        </div>
+                    </div>
+                    <h2>Informações Adicionais</h2>
+                    <hr /> 
+                    <br />
+                    <div class="form-group row">
+                        <div class="participacao mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="participacao">Possui participação em alguma empresa?</label>
+                                <select id="inputParticipacao" class="form-control">
+                                    <option value="S">Sim</option>
+                                    <option selected value="N">Não</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="cliente mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="cliente">A empresa já é nossa parceira?</label>
+                                <select id="inputCliente" class="form-control">
+                                    <option value="S">Sim</option>
+                                    <option selected value="N">Não</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="nomeemp mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="nomeemp">Nome da Empresa</label>
+                                <input type="text" class="form-control" id="nomeemp" name="nomeemp" placeholder="Digite o nome da empresa" required>
+                            </div>
+                        </div>
+                        <div class="cnpjemp mx-sm-3 mb-2">
+                            <div class="form-group">
+                                <label for="cnpjemp">CNPJ da Empresa</label>
+                                <input type="text" class="form-control" id="cnpjemp" name="cnpjemp" placeholder="Dgite o CNPJ" required>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div id="botao">
+                        <div class="btconfirmar">
+                            <div class="form-group">
+                                <input type="button" class="btn btn-success" value="Confirmar" id="btconfirmar" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <footer class="page-footer font-small bg-dark special-color-dark pt-4">
+            <div class="container">
+                <ul class="list-unstyled list-inline text-center">
+                    <span><a class="btn-floating btn-lg btn-fb" href="https://www.facebook.com/IrmaosJouglard/"type="button" role="button"><i class="fab fa-facebook-f"></i></a></span>
+                    <span><a class="btn-floating btn-lg btn-ins" href="https://www.instagram.com/irmaosjouglard/"type="button" role="button"><i class="fab fa-instagram"></i></a></span>
+                    <span><a class="btn-floating btn-lg btn-whatsapp" href="https://www.jouglard.com.br" type="button" role="button"><i class="fas fa-globe-americas"></i></a></span>
+                </ul>          
+            </div>
+            <div class="footer-copyright text-center py-3">
+                <div class="copia">© 2020 Copyright: 
+                    <a class="link" href="https://www.jouglard.com.br">Irmãos Jouglard</a>
+                </div> 
+            </div>
+          </footer>
+    </body>
+</html>
