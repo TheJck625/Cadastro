@@ -116,13 +116,31 @@ img{
 .cnpjemp{
     width: 22%;
 }
+.ordcompra{
+    width: 21.5%
+}
+.autoriza{
+    width: 27%;
+}
+.verbal, .poremail{
+    width: 18%;
+}
 .copia, .link{
    /* color: white;*/
    /* color: #FF5559; */
-   color: #FF797C;
+   color: white;
 }
 .link:hover{
     color:red;
+}
+.nomecomp1, .nomecomp2, .nomecomp3{
+    width: 40%;
+}
+.cpfcomp1, .cpfcomp2, .cpfcomp3{
+    width: 18%;
+}
+.cargocomp1, .cargocomp2, .cargocomp3{
+    width: 30%
 }
 #botao{ 
     text-align: center;
