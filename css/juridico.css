@@ -117,16 +117,16 @@ img{
     width: 22%;
 }
 .ordcompra{
-    width: 32%
+    width: 31%
 }
 .autoriza{
-    width: 100%;
+    width: 95%;
 }
 .verbal, .poremail{
-    width: 32%;
+    width: 29%;
 }
 .copia, .link{
-   /* color: white;*/
+   /* color: white;   */
    /* color: #FF5559; */
    color: white;
 }
