@@ -6,7 +6,7 @@
     background: #ffffff;
 }
 ::-webkit-scrollbar-thumb{
-    display: none;
+    color: #D3D3D3;
 }
 ::-webkit-scrollbar-thumb:hover{
     display: inline; 
